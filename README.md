@@ -42,7 +42,7 @@ asmaehajji-website/
 │   ├── en/page.tsx             ← Page anglaise
 │   ├── globals.css             ← Design system
 │   ├── opengraph-image.tsx     ← Image de partage social
-│   ├── favicon.svg             ← Icône du site
+│   ├── icon.svg                ← Icône du site (favicon)
 │   └── components/             ← Toutes les sections du site
 ├── public/
 │   └── asmae-photo.jpg
