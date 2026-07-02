@@ -73,15 +73,15 @@ export default function DeuxModeles({ t }: DeuxModelesProps) {
 
             <line x1="698" y1="173" x2="720" y2="173" stroke="#0F5C4A" strokeWidth="2" markerEnd="url(#arrE)"/>
 
-            <rect x="690" y="92" width="156" height="102" rx="3" fill="#0F5C4A"/>
-            <text x="768" y="138" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="15" fill="#fff" letterSpacing="1">{t.constat.right.residualIncome}</text>
-            <text x="768" y="160" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="15" fill="#fff" letterSpacing="1">{t.constat.right.freedom}</text>
-            <text x="768" y="182" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="9" fill="rgba(255,255,255,0.75)">{t.constat.right.rest}</text>
+            <rect x="714" y="100" width="120" height="86" rx="3" fill="#0F5C4A"/>
+            <text x="774" y="140" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="15" fill="#fff" letterSpacing="1">{t.constat.right.residualIncome}</text>
+            <text x="774" y="160" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="15" fill="#fff" letterSpacing="1">{t.constat.right.freedom}</text>
+            <text x="774" y="178" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="9" fill="rgba(255,255,255,0.75)">{t.constat.right.rest}</text>
 
-            <line x1="480" y1="174" x2="692" y2="100" stroke="#0F5C4A" strokeWidth="1.5" strokeDasharray="5 3" markerEnd="url(#arrE)"/>
+            <line x1="480" y1="174" x2="722" y2="106" stroke="#0F5C4A" strokeWidth="1.5" strokeDasharray="5 3" markerEnd="url(#arrE)"/>
 
-            <text x="630" y="74" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="10.5" fill="#555555" fontStyle="italic">{t.constat.right.anywhere}</text>
-            <text x="630" y="90" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="10.5" fill="#555555" fontStyle="italic">{t.constat.right.homeCountry}</text>
+            <text x="632" y="74" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="10.5" fill="#555555" fontStyle="italic">{t.constat.right.anywhere}</text>
+            <text x="632" y="90" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="10.5" fill="#555555" fontStyle="italic">{t.constat.right.homeCountry}</text>
           </svg>
         </div>
         <p className="text-xs sm:text-sm text-as-gray-500 italic mt-3 pl-1">{t.constat.figCaption}</p>
