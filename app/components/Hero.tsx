@@ -44,7 +44,7 @@ export default function Hero({ t }: HeroProps) {
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-black/60 flex flex-col justify-center px-8 sm:px-12 py-12">
-          <span className="text-6xl leading-none text-as-gold font-serif mb-5">"&lt;/span&gt;
+          <span className="text-6xl leading-none text-as-gold font-serif mb-5">"</span>
           <p className="text-white text-base sm:text-lg font-light italic max-w-[300px] leading-relaxed mb-5">
             {t.hero.quote}
           </p>
