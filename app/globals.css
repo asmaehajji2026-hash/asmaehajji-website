@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================================
+   Asmae Hajji / Naya's Wealth Design System
+   Palette : emerald #0F5C4A · gold #D4A24C · cream #F7F2E8 · plum #5B2C4D
+   Polices : Playfair Display (titres) · Montserrat (corps) · Great Vibes (signature)
+   ======================================== */
+
+:root {
+  color-scheme: only light;
+  forced-color-adjust: none;
+}
+
+html, body {
+  background-color: #F7F2E8 !important;
+  color: #1A1A1A !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  forced-color-adjust: none;
+  color-scheme: only light;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: only light !important;
+  }
+  html, body {
+    background-color: #F7F2E8 !important;
+    color: #1A1A1A !important;
+  }
+}
+
+body {
+  font-family: var(--font-montserrat), 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+/* Surligneur gold */
+.hl {
+  background: #F9F1DE;
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
+/* Filets dorés décoratifs */
+.as-rule {
+  width: 3rem;
+  height: 4px;
+  background: #D4A24C;
+  border-radius: 2px;
+}
+
+/* Titres */
+h1, h2, h3, h4 {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #1A1A1A;
+  line-height: 1.08;
+}
+
+/* Bouton emerald */
+.btn-as {
+  background: #0F5C4A;
+  color: #FFFFFF;
+  font-family: var(--font-montserrat), 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 10px 26px rgba(15, 92, 74, 0.22);
+}
+
+.btn-as:hover {
+  background: #0A4033;
+  transform: translateY(-1px);
+}
+
+.btn-as:active {
+  transform: translateY(0);
+}
+
+.btn-as-gold {
+  background: #D4A24C;
+  color: #1A1A1A;
+  font-family: var(--font-montserrat), 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 10px 26px rgba(15, 92, 74, 0.18);
+}
+
+.btn-as-gold:hover {
+  background: #E6BE6E;
+  transform: translateY(-1px);
+}
+
+/* Animations subtiles */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.4s ease-out both;
+}
+
+/* Sélection texte */
+::selection {
+  background: #D4A24C;
+  color: #1A1A1A;
+}
