@@ -293,7 +293,7 @@ const fr: Translation = {
     rightTitle: "MODÈLE INDÉPENDANT",
     right: [
       "Ton potentiel de revenu croît avec ton apprentissage et ton équipe",
-      "Tu construis un actif qui peut fonctionner sans ta présence constante",
+      "Tu construis un actif qui grandit même sans ta présence constante",
       "Tu décides de ton rythme, de ton territoire et de tes priorités",
       "Ton bloc d'affaires peut devenir un héritage familial",
       "Tu combines service, impact et liberté dans un même modèle",
@@ -526,7 +526,7 @@ const en: Translation = {
     rightTitle: "INDEPENDENT MODEL",
     right: [
       "Your income potential grows with your learning and your team",
-      "You build an asset that can work without your constant presence",
+      "You build an asset that grows even without your constant presence",
       "You decide your pace, territory, and priorities",
       "Your book of business can become a family legacy",
       "You combine service, impact, and freedom in one model",
