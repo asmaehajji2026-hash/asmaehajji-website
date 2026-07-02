@@ -14,6 +14,7 @@ import PreuveSociale from './PreuveSociale';
 import Preclose from './Preclose';
 import FinalCTA from './FinalCTA';
 import Footer from './Footer';
+import WhatsAppButton from './WhatsAppButton';
 
 interface HomePageProps {
   t: Translation;
@@ -38,6 +39,7 @@ export default function HomePage({ t, lang }: HomePageProps) {
       <Preclose t={t} />
       <FinalCTA t={t} />
       <Footer t={t} />
+      <WhatsAppButton />
     </main>
   );
 }
