@@ -135,8 +135,8 @@ const fr: Translation = {
   },
   hero: {
     eyebrow: "Protéger. Grandir. Transmettre.",
-    headline: 'TU AS DÉJÀ TANT DONNÉ',
-    accent: "ET SI TU TE DONNAIS UNE VRAIE SORTIE ?",
+    headline: "TON SALAIRE TE SOIGNE AUJOURD'HUI.",
+    accent: "MAIS QUI SOIGNE TON AVENIR ?",
     lead1:
       "Année après année, tu prends soin des autres — de ta famille, de ta carrière, de ton avenir. Mais qui prend soin de ton avenir financier avec la même détermination ?",
     lead2:
@@ -369,8 +369,8 @@ const en: Translation = {
   },
   hero: {
     eyebrow: "Protect. Grow. Leave a Legacy.",
-    headline: "YOU'VE ALREADY GIVEN SO MUCH",
-    accent: "WHAT IF YOU GAVE YOURSELF A REAL EXIT STRATEGY?",
+    headline: "YOUR SALARY TAKES CARE OF YOU TODAY.",
+    accent: "BUT WHO IS TAKING CARE OF YOUR FUTURE?",
     lead1:
       "Year after year, you take care of others — your family, your career, your future. But who is taking care of your financial future with the same determination?",
     lead2:
