@@ -73,10 +73,10 @@ export default function DeuxModeles({ t }: DeuxModelesProps) {
 
             <line x1="698" y1="173" x2="720" y2="173" stroke="#0F5C4A" strokeWidth="2" markerEnd="url(#arrE)"/>
 
-            <rect x="724" y="112" width="100" height="64" rx="3" fill="#0F5C4A"/>
-            <text x="774" y="142" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="16" fill="#fff" letterSpacing="1">{t.constat.right.residualIncome}</text>
-            <text x="774" y="160" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="16" fill="#fff" letterSpacing="1">{t.constat.right.freedom}</text>
-            <text x="774" y="174" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="9" fill="rgba(255,255,255,0.75)">{t.constat.right.rest}</text>
+            <rect x="724" y="108" width="100" height="72" rx="3" fill="#0F5C4A"/>
+            <text x="774" y="138" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="15" fill="#fff" letterSpacing="1">{t.constat.right.residualIncome}</text>
+            <text x="774" y="156" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="15" fill="#fff" letterSpacing="1">{t.constat.right.freedom}</text>
+            <text x="774" y="170" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="9" fill="rgba(255,255,255,0.75)">{t.constat.right.rest}</text>
 
             <line x1="480" y1="174" x2="722" y2="112" stroke="#0F5C4A" strokeWidth="1.5" strokeDasharray="5 3" markerEnd="url(#arrE)"/>
 

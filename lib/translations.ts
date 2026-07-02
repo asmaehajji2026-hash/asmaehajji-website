@@ -213,8 +213,8 @@ const fr: Translation = {
     right: {
       sales: "VENTES",
       team: "ÉQUIPE",
-      residualIncome: "REVENU RÉSIDUEL",
-      freedom: "LIBERTÉ",
+      residualIncome: "REVENU",
+      freedom: "RÉSIDUEL",
       personal: "personnelles",
       recruitTrain: "recruter & former",
       rest: "même au repos",
@@ -447,8 +447,8 @@ const en: Translation = {
     right: {
       sales: "SALES",
       team: "TEAM",
-      residualIncome: "RESIDUAL INCOME",
-      freedom: "FREEDOM",
+      residualIncome: "RESIDUAL",
+      freedom: "INCOME",
       personal: "personal",
       recruitTrain: "recruit & train",
       rest: "even while you rest",
