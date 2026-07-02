@@ -121,13 +121,13 @@ export interface Translation {
 const fr: Translation = {
   lang: 'fr',
   meta: {
-    title: "Asmae Hajji · Naya's Wealth — Protéger, Grandir, Transmettre",
+    title: "Asmae Hajji — Protéger, Grandir, Transmettre",
     description:
       "Asmae Hajji accompagne les femmes et les familles qui veulent protéger leur avenir, bâtir un patrimoine durable et vivre avec plus de liberté.",
     locale: 'fr_US',
   },
   nav: {
-    tagline: "Naya's Wealth · Créée par Asmae Hajji",
+    tagline: "Asmae Hajji · Éduquer, Protéger, Bâtir",
     cta: 'PARLONS-EN',
     fr: 'FR',
     en: 'EN',
@@ -182,7 +182,7 @@ const fr: Translation = {
       "La vie a dessiné un autre chemin. Mariée, mère, j'ai porté plusieurs vies avant la mienne. Je n'ai pas fait de médecine, mais j'ai gardé ce qui comptait : le besoin de servir, de comprendre, et de bâtir quelque chose avec mes propres mains.",
       "J'ai donc fait carrière en santé, comme sonographe cardiaque. J'ai scruté des cœurs, accompagné des médecins, rassuré des milliers de patients. Sur le plan financier, j'ai atteint des objectifs que je n'imaginais pas. Pourtant, je ressentais un creux.",
       "Je voyais des gens brillants épuisés par des systèmes qui soignent mieux qu'ils ne préviennent. Je comprenais que la santé et la richesse sont liées : sans l'une, l'autre vacille. Et que le temps libre n'est pas un luxe — c'est une condition pour une vie pleine.",
-      "Aujourd'hui, avec Naya's Wealth, j'allie mon bagage santé à une mission financière : aider des femmes et des familles à protéger ce qui compte, à se préparer pour la retraite sans angoisse, et à créer un patrimoine qui traverse les générations.",
+      "Aujourd'hui, j'allie mon bagage santé à une mission financière : aider des femmes et des familles à protéger ce qui compte, à se préparer pour la retraite sans angoisse, et à créer un patrimoine qui traverse les générations.",
       "Je ne promets pas de raccourcis. Je propose un cadre, un accompagnement, et la conviction profonde que chaque femme peut devenir la financière de sa propre vie.",
     ],
     cta: "VOIR SI ON EST FAITES POUR TRAVAILLER ENSEMBLE →",
@@ -344,7 +344,7 @@ const fr: Translation = {
     ctaSub: "Gratuit · Confidentiel · Sans engagement",
   },
   footer: {
-    copyright: "© 2026 Asmae Hajji · Naya's Wealth",
+    copyright: "© 2026 Asmae Hajji. Tous droits réservés.",
     instagram: 'Instagram : @asmae-hajji',
     disclaimer:
       "Ce site a un but éducatif et informatif. Il ne constitue pas un conseil financier, fiscal, juridique ou en assurance personnalisé. Les services financiers et d'assurance nécessitent des licences conformes aux États-Unis. Aucun revenu, résultat ou rendement n'est garanti.",
@@ -354,13 +354,13 @@ const fr: Translation = {
 const en: Translation = {
   lang: 'en',
   meta: {
-    title: "Asmae Hajji · Naya's Wealth — Protect, Grow, Leave a Legacy",
+    title: "Asmae Hajji — Protect, Grow, Leave a Legacy",
     description:
       "Asmae Hajji helps women and families protect their future, build lasting wealth, and live with more freedom.",
     locale: 'en_US',
   },
   nav: {
-    tagline: "Naya's Wealth · Built by Asmae Hajji",
+    tagline: "Asmae Hajji · Educate, Protect, Build",
     cta: "LET'S TALK",
     fr: 'FR',
     en: 'EN',
@@ -415,7 +415,7 @@ const en: Translation = {
       "Life drew a different path. Married, a mother, I carried several lives before my own. I did not become a doctor, but I kept what mattered: the need to serve, to understand, and to build something with my own hands.",
       "So I built a career in healthcare as a cardiovascular sonographer. I scanned hearts, worked alongside physicians, and reassured thousands of patients. Financially, I reached goals I never imagined. Yet something felt hollow.",
       "I saw brilliant people exhausted by systems that treat better than they prevent. I understood that health and wealth are connected: without one, the other wavers. And that free time is not a luxury — it is a condition for a full life.",
-      "Today, with Naya's Wealth, I combine my healthcare background with a financial mission: helping women and families protect what matters, prepare for retirement without anxiety, and create wealth that crosses generations.",
+      "Today, I combine my healthcare background with a financial mission: helping women and families protect what matters, prepare for retirement without anxiety, and create wealth that crosses generations.",
       "I do not promise shortcuts. I offer a framework, support, and a deep belief that every woman can become the CFO of her own life.",
     ],
     cta: "SEE IF WE ARE A FIT →",
@@ -577,7 +577,7 @@ const en: Translation = {
     ctaSub: "Free · Confidential · No commitment",
   },
   footer: {
-    copyright: "© 2026 Asmae Hajji · Naya's Wealth",
+    copyright: "© 2026 Asmae Hajji. All rights reserved.",
     instagram: 'Instagram: @asmae-hajji',
     disclaimer:
       "This site is for educational and informational purposes. It does not constitute personalized financial, tax, legal, or insurance advice. Financial and insurance services require licenses compliant with United States regulations. No income, result, or return is guaranteed.",

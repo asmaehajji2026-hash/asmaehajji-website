@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // ===== Asmae / Naya's Wealth Design System =====
+        // ===== Asmae Hajji Design System =====
         'as-emerald': '#0F5C4A',       // couleur dominante — wealth, growth
         'as-emerald-dark': '#0A4033', // hover / bordures
         'as-emerald-pale': '#E6F0ED', // fond doux

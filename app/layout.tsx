@@ -29,12 +29,14 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://asmaehajji.com';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Asmae Hajji · Naya\'s Wealth — Protection, Retraite & Richesse',
+  title: 'Asmae Hajji — Protection, Retraite & Patrimoine',
   description:
     'Asmae Hajji aide les femmes et les familles à bâtir protection, sécurité de retraite et richesse durable. Basée en Floride, États-Unis.',
   keywords: [
     'Asmae Hajji',
-    "Naya's Wealth",
+    'protection',
+    'retirement planning',
+    'wealth building',
     'financial services',
     'life insurance',
     'retirement planning',
@@ -51,11 +53,11 @@ export const metadata = {
     telephone: false,
   },
   openGraph: {
-    title: 'Asmae Hajji · Naya\'s Wealth',
+    title: 'Asmae Hajji',
     description:
-      'Protection, retraite et richesse pour les femmes et les familles.',
+      'Protection, retraite et patrimoine pour les femmes et les familles.',
     url: SITE_URL,
-    siteName: "Naya's Wealth",
+    siteName: 'Asmae Hajji',
     locale: 'fr_US',
     type: 'website',
     images: [

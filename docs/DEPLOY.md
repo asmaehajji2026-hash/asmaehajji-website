@@ -31,7 +31,7 @@ npm --version
 
 1. Sur GitHub.com → bouton vert **New** (ou [https://github.com/new](https://github.com/new))
 2. Repository name : `asmaehajji-website`
-3. Description : `Site web bilingue — Asmae Hajji · Naya's Wealth`
+3. Description : `Site web bilingue — Asmae Hajji, protection, retraite et patrimoine`
 4. Visibilité : **Public** ou **Private** (les deux fonctionnent avec Vercel)
 5. Ne coche aucune case d'initialisation (README, .gitignore, license) — tu as déjà tout
 6. Clique **Create repository**

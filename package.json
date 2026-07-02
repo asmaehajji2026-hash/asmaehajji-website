@@ -2,7 +2,7 @@
   "name": "asmaehajji-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Site web bilingue d'Asmae Hajji · Naya's Wealth",
+  "description": "Site web bilingue d'Asmae Hajji — accompagnement protection, retraite et patrimoine.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

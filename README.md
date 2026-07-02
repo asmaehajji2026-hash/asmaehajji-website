@@ -1,6 +1,6 @@
-# Asmae Hajji · Naya's Wealth Website
+# Asmae Hajji Website
 
-Site web bilingue (FR/EN) pour Asmae Hajji, Financial Mindset Coach et représentante Experior en Floride.
+Site web bilingue (FR/EN) pour Asmae Hajji, accompagnement en protection, retraite et patrimoine en Floride.
 
 **Stack :** Next.js 14 (App Router) · React 18 · TypeScript · Tailwind CSS · Vercel hosting · Domaine `.com`
 

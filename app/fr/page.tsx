@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: t.meta.title,
     description: t.meta.description,
     url: `${SITE_URL}/fr`,
-    siteName: "Naya's Wealth",
+    siteName: "Asmae Hajji",
     locale: 'fr_US',
     type: 'website',
   },
