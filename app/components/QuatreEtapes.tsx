@@ -5,10 +5,6 @@ interface QuatreEtapesProps {
 }
 
 export default function QuatreEtapes({ t }: QuatreEtapesProps) {
-  const labels = ['Formation & licence', 'Bâtir la clientèle', 'Dupliquer le système', 'La liberté financière'];
-  const labelsEn = ['Training & licensing', 'Build your client base', 'Duplicate the system', 'Financial freedom'];
-  const bottomLabels = t.lang === 'fr' ? labels : labelsEn;
-
   return (
     <section className="bg-as-cream-warm py-20 sm:py-28 px-[6%]">
       <div className="max-w-[1000px] mx-auto">
@@ -38,7 +34,7 @@ export default function QuatreEtapes({ t }: QuatreEtapesProps) {
                   <text x={x + 95} y="68" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="36" fill={isLast ? 'rgba(255,255,255,0.25)' : i === 2 ? 'rgba(15,92,74,0.25)' : '#E6E0D6'} letterSpacing="2">{step.num}</text>
                   <text x={x + 95} y="92" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="13" fill={isLast ? '#fff' : '#555555'} letterSpacing="2">{step.label}</text>
                   <text x={x + 95} y="109" textAnchor="middle" fontFamily="var(--font-playfair), Georgia, serif" fontSize="13" fill={isLast ? '#fff' : '#555555'} letterSpacing="2">{step.sub}</text>
-                  <text x={x + 95} y="164" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="9" fill={isLast ? '#0F5C4A' : i === 2 ? '#555555' : '#8A7F73'} fontWeight={isLast ? '700' : '400'}>{bottomLabels[i]}</text>
+                  <text x={x + 95} y="164" textAnchor="middle" fontFamily="var(--font-montserrat), sans-serif" fontSize="9" fill={isLast ? '#0F5C4A' : i === 2 ? '#555555' : '#8A7F73'} fontWeight={isLast ? '700' : '400'}>{t.etapes.bottomLabels[i]}</text>
 
                   {!isLast && (
                     <line x1={x + 190} y1="82" x2={x + 214} y2="82" stroke="#0F5C4A" strokeWidth="2" markerEnd="url(#arrE2)"/>
