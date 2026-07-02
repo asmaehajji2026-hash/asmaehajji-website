@@ -44,11 +44,11 @@ export default function Hero({ t }: HeroProps) {
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/25 to-black/60 flex flex-col justify-start px-8 sm:px-12 pt-12 pb-12">
-          <div className="font-script text-3xl sm:text-4xl text-white/90">{t.hero.signature}</div>
-          <span className="text-5xl sm:text-6xl leading-none text-as-gold font-serif mt-6 mb-3">"</span>
+          <span className="text-5xl sm:text-6xl leading-none text-as-gold font-serif mb-3">"</span>
           <p className="text-white text-base sm:text-lg font-light italic max-w-[300px] leading-relaxed">
             {t.hero.quote}
           </p>
+          <div className="font-script text-3xl sm:text-4xl text-white/90 mt-5">{t.hero.signature}</div>
         </div>
       </div>
     </section>
