@@ -226,14 +226,14 @@ const fr: Translation = {
     eyebrow: 'Comment ça marche',
     title: "4 ÉTAPES POUR PASSER D'UNE IDÉE À UN ACTIF",
     steps: [
-      { num: '01', phase: 'MOIS 1–6', label: 'APPRENDRE', sub: '& ÊTRE LICENCIÉE' },
+      { num: '01', phase: 'MOIS 1–6', label: 'APPRENDRE', sub: '& LICENCE*' },
       { num: '02', phase: 'AN 1–2', label: 'SERVIR', sub: 'LES PREMIÈRES FAMILLES' },
       { num: '03', phase: 'AN 2–5', label: 'DUPLIQUER', sub: 'EN FORMAN D’AUTRES' },
       { num: '04', phase: 'AN 5 → 10+', label: 'BÉNÉFICIER', sub: 'DU REVENU CONSTRUIT' },
     ],
     figCaption:
-      "Fig. 2 — Progression indicatives. Chaque parcours est unique et dépend de l'engagement personnel.",
-    bottomLabels: ["Formation & licence", "Bâtir la clientèle", "Dupliquer le système", "La liberté financière"],
+      "Fig. 2 — Progression indicatives. Chaque parcours est unique et dépend de l'engagement personnel. *La licence peut généralement être obtenue en 3 mois ou moins, selon le rythme de formation.",
+    bottomLabels: ["Licence* en 3 mois max.", "Bâtir la clientèle", "Dupliquer le système", "La liberté financière"],
   },
   fit: {
     eyebrow: "Honnêteté d'abord",
@@ -460,14 +460,14 @@ const en: Translation = {
     eyebrow: 'How it works',
     title: "4 STEPS TO TURN AN IDEA INTO AN ASSET",
     steps: [
-      { num: '01', phase: 'MONTHS 1–6', label: 'LEARN', sub: '& GET LICENSED' },
+      { num: '01', phase: 'MONTHS 1–6', label: 'LEARN', sub: '& LICENSE*' },
       { num: '02', phase: 'YEAR 1–2', label: 'SERVE', sub: 'THE FIRST FAMILIES' },
       { num: '03', phase: 'YEAR 2–5', label: 'DUPLICATE', sub: 'BY TRAINING OTHERS' },
       { num: '04', phase: 'YEAR 5 → 10+', label: 'BENEFIT', sub: 'FROM BUILT INCOME' },
     ],
     figCaption:
-      "Fig. 2 — Indicative progression. Each journey is unique and depends on personal commitment.",
-    bottomLabels: ["Training & licensing", "Build your client base", "Duplicate the system", "Financial freedom"],
+      "Fig. 2 — Indicative progression. Each journey is unique and depends on personal commitment. *License can typically be obtained in 3 months or less, depending on training pace.",
+    bottomLabels: ["License* in 3 months or less", "Build your client base", "Duplicate the system", "Financial freedom"],
   },
   fit: {
     eyebrow: "Honesty first",
