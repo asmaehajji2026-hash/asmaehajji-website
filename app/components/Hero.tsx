@@ -43,15 +43,12 @@ export default function Hero({ t }: HeroProps) {
           priority
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-black/60 flex flex-col justify-center px-8 sm:px-12 py-12">
-          <span className="text-6xl leading-none text-as-gold font-serif mb-5">"</span>
-          <p className="text-white text-base sm:text-lg font-light italic max-w-[300px] leading-relaxed mb-5">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/25 to-black/60 flex flex-col justify-start px-8 sm:px-12 pt-12 pb-12">
+          <div className="font-script text-3xl sm:text-4xl text-white/90">{t.hero.signature}</div>
+          <span className="text-5xl sm:text-6xl leading-none text-as-gold font-serif mt-6 mb-3">"</span>
+          <p className="text-white text-base sm:text-lg font-light italic max-w-[300px] leading-relaxed">
             {t.hero.quote}
           </p>
-          <div className="font-script text-3xl sm:text-4xl text-white/90">{t.hero.signature}</div>
-          <div className="text-xs sm:text-sm text-white/60 tracking-as-wide mt-2 font-body">
-            {t.hero.subtitle}
-          </div>
         </div>
       </div>
     </section>

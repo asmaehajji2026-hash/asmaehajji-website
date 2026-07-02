@@ -23,7 +23,6 @@ export interface Translation {
     ctaNote: string;
     quote: string;
     signature: string;
-    subtitle: string;
   };
   essentiel: {
     eyebrow: string;
@@ -146,7 +145,6 @@ const fr: Translation = {
     quote:
       "La vraie richesse commence quand on cesse de choisir entre prendre soin des autres et prendre soin de soi.",
     signature: 'Asmae',
-    subtitle: "Fondatrice · Naya's Wealth",
   },
   essentiel: {
     eyebrow: "L'essentiel en 30 secondes",
@@ -380,7 +378,6 @@ const en: Translation = {
     quote:
       "True wealth begins when you stop choosing between caring for others and caring for yourself.",
     signature: 'Asmae',
-    subtitle: "Founder · Naya's Wealth",
   },
   essentiel: {
     eyebrow: "The essentials in 30 seconds",
