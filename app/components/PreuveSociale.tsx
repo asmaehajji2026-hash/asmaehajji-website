@@ -50,6 +50,7 @@ export default function PreuveSociale({ t }: PreuveSocialeProps) {
 
         <p className="text-xs text-as-gray-500 italic mt-3 pl-1">{t.preuve.caption}</p>
       </div>
+      </div>
     </section>
   );
 }
