@@ -7,7 +7,7 @@ interface PreuveSocialeProps {
 
 export default function PreuveSociale({ t }: PreuveSocialeProps) {
   return (
-    <section className="bg-as-cream py-20 sm:py-28 px-[6%]">
+    <section className="bg-as-cream pt-20 sm:pt-28 pb-10 sm:pb-12 px-[6%]">
       <div className="max-w-[1000px] mx-auto">
         <p className="font-body text-xs sm:text-sm tracking-as-wider text-as-emerald mb-3">
           {t.preuve.eyebrow}
