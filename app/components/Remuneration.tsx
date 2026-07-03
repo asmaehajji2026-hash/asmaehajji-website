@@ -36,7 +36,7 @@ export default function Remuneration({ t }: RemunerationProps) {
         </div>
 
         <div className="border border-as-emerald/30 bg-as-emerald-pale rounded-lg p-6 text-center">
-          <p className="font-body text-xs tracking-as-wider text-as-gray-500 mb-3">{t.lang === 'fr' ? 'COMBINAISON DES 3 LEVIERS' : 'COMBINING THE 3 LEVERS'}</p>
+          <p className="font-body text-xs tracking-as-wider text-as-gray-500 mb-3">{t.remuneration.comboLabel}</p>
           <div className="font-display text-3xl sm:text-4xl text-as-emerald mb-3">3 levers</div>
           <p className="font-body text-sm sm:text-base text-as-gray-700 leading-relaxed max-w-[700px] mx-auto"
             dangerouslySetInnerHTML={{ __html: t.remuneration.disclaimer }}

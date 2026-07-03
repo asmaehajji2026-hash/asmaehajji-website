@@ -1,6 +1,6 @@
 # Asmae Hajji Website
 
-Site web bilingue (FR/EN) pour Asmae Hajji, accompagnement en protection, retraite et patrimoine en Floride.
+Site web trilingue (FR/EN/ES) pour Asmae Hajji, accompagnement en protection, retraite et patrimoine en Floride.
 
 **Stack :** Next.js 14 (App Router) · React 18 · TypeScript · Tailwind CSS · Vercel hosting · Domaine `.com`
 
@@ -40,6 +40,7 @@ asmaehajji-website/
 │   ├── page.tsx                ← Redirection vers /fr
 │   ├── fr/page.tsx             ← Page française
 │   ├── en/page.tsx             ← Page anglaise
+│   ├── es/page.tsx             ← Page espagnole
 │   ├── globals.css             ← Design system
 │   ├── opengraph-image.tsx     ← Image de partage social
 │   ├── icon.svg                ← Icône du site (favicon)
@@ -47,7 +48,7 @@ asmaehajji-website/
 ├── public/
 │   └── asmae-photo.jpg
 ├── lib/
-│   └── translations.ts         ← Traductions FR/EN
+│   └── translations.ts         ← Traductions FR/EN/ES
 ├── docs/
 │   ├── DEPLOY.md
 │   └── DOMAIN-SETUP.md
@@ -61,7 +62,7 @@ asmaehajji-website/
 
 ## Maintenance
 
-Pour modifier le contenu : éditer `lib/translations.ts` (textes FR/EN) ou les composants dans `app/components/`. Chaque section est un fichier indépendant.
+Pour modifier le contenu : éditer `lib/translations.ts` (textes FR/EN/ES) ou les composants dans `app/components/`. Chaque section est un fichier indépendant.
 
 Pour modifier les couleurs/polices : `tailwind.config.ts` + `globals.css`.
 

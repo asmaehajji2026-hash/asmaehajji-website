@@ -30,6 +30,13 @@ export default function Navbar({ t, lang }: NavbarProps) {
           >
             {t.nav.en}
           </Link>
+          <span>|</span>
+          <Link
+            href="/es"
+            className={`px-2 py-1 rounded transition-colors ${lang === 'es' ? 'bg-as-emerald text-white' : 'hover:text-as-emerald'}`}
+          >
+            {t.nav.es}
+          </Link>
         </div>
 
         <a

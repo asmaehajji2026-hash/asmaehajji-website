@@ -1,9 +1,21 @@
 import Image from 'next/image';
-import type { Translation } from '@/lib/translations';
+import type { Translation, Lang } from '@/lib/translations';
 
 interface PreuveSocialeProps {
   t: Translation;
 }
+
+const scoreboardLabel: Record<Lang, string> = {
+  fr: 'CLASSEMENT DE PERFORMANCE',
+  en: 'PERFORMANCE RANKING',
+  es: 'CLASIFICACIÓN DE RENDIMIENTO',
+};
+
+const scoreboardAlt: Record<Lang, string> = {
+  fr: 'Classement de performance',
+  en: 'Performance ranking',
+  es: 'Clasificación de rendimiento',
+};
 
 export default function PreuveSociale({ t }: PreuveSocialeProps) {
   return (
@@ -23,19 +35,18 @@ export default function PreuveSociale({ t }: PreuveSocialeProps) {
 
         <div className="border border-as-gray-200 overflow-hidden rounded-lg bg-white">
           <div className="bg-as-cream-warm px-4 py-3 border-b border-as-gray-200 font-body text-xs tracking-as-wider text-as-gray-500">
-            {t.lang === 'fr' ? 'CLASSEMENT DE PERFORMANCE' : 'PERFORMANCE RANKING'}
+            {scoreboardLabel[t.lang]}
           </div>
           <div className="relative w-full h-auto">
             <Image
               src="/scoreboard.png"
-              alt={t.lang === 'fr' ? 'Classement de performance Experior' : 'Experior performance ranking'}
+              alt={scoreboardAlt[t.lang]}
               width={1478}
               height={643}
               className="w-full h-auto"
               sizes="(max-width: 1000px) 100vw, 1000px"
             />
           </div>
-        </div>
 
         <p className="text-xs text-as-gray-500 italic mt-3 pl-1">{t.preuve.caption}</p>
       </div>

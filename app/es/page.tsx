@@ -2,7 +2,7 @@ import HomePage from '../components/HomePage';
 import { getTranslation } from '@/lib/translations';
 import type { Metadata } from 'next';
 
-const t = getTranslation('en');
+const t = getTranslation('es');
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://asmaehajji.com';
 
 export const metadata: Metadata = {
@@ -12,20 +12,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: t.meta.title,
     description: t.meta.description,
-    url: `${SITE_URL}/en`,
+    url: `${SITE_URL}/es`,
     siteName: "Asmae Hajji",
-    locale: 'en_US',
+    locale: 'es_US',
     type: 'website',
   },
   alternates: {
-    canonical: `${SITE_URL}/en`,
+    canonical: `${SITE_URL}/es`,
     languages: {
       fr: `${SITE_URL}/fr`,
-      es: `${SITE_URL}/es`,
+      en: `${SITE_URL}/en`,
     },
   },
 };
 
-export default function EnglishPage() {
-  return <HomePage t={t} lang="en" />;
+export default function SpanishPage() {
+  return <HomePage t={t} lang="es" />;
 }

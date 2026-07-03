@@ -1,4 +1,4 @@
-export type Lang = 'fr' | 'en';
+export type Lang = 'fr' | 'en' | 'es';
 
 export interface Translation {
   lang: Lang;
@@ -12,6 +12,7 @@ export interface Translation {
     cta: string;
     fr: string;
     en: string;
+    es: string;
   };
   hero: {
     eyebrow: string;
@@ -70,6 +71,7 @@ export interface Translation {
     title: string;
     intro: string;
     levers: { label: string; title: string; text: string }[];
+    comboLabel: string;
     disclaimer: string;
     figCaption: string;
   };
@@ -131,6 +133,7 @@ const fr: Translation = {
     cta: 'PARLONS-EN',
     fr: 'FR',
     en: 'EN',
+    es: 'ES',
   },
   hero: {
     eyebrow: "Protéger. Grandir. Transmettre.",
@@ -276,6 +279,7 @@ const fr: Translation = {
     ],
     disclaimer:
       "Aucun montant, délai ou palier n'est garanti. Les résultats varient selon chaque personne, le marché, les efforts fournis et les conditions de la compagnie. Les chiffres publics de la grille ne sont pas des promesses individuelles.",
+    comboLabel: 'COMBINAISON DES 3 LEVIERS',
     figCaption:
       "Fig. 3 — Les trois voies de croissance possibles. À titre indicatif uniquement.",
   },
@@ -364,6 +368,7 @@ const en: Translation = {
     cta: "LET'S TALK",
     fr: 'FR',
     en: 'EN',
+    es: 'ES',
   },
   hero: {
     eyebrow: "Protect. Grow. Leave a Legacy.",
@@ -509,6 +514,7 @@ const en: Translation = {
     ],
     disclaimer:
       "No amount, timeline, or level is guaranteed. Results vary by individual, market, effort, and company conditions. Public compensation grid figures are not individual promises.",
+    comboLabel: 'COMBINING THE 3 LEVERS',
     figCaption:
       "Fig. 3 — The three possible growth paths. For illustrative purposes only.",
   },
@@ -584,7 +590,242 @@ const en: Translation = {
   },
 };
 
-export const translations: Record<Lang, Translation> = { fr, en };
+const es: Translation = {
+  lang: 'es',
+  meta: {
+    title: "Asmae Hajji — Proteger, Crecer, Dejar un Legado",
+    description:
+      "Asmae Hajji ayuda a mujeres y familias a proteger su futuro, construir patrimonio duradero y vivir con más libertad.",
+    locale: 'es_US',
+  },
+  nav: {
+    tagline: "Asmae Hajji · Educar, Proteger, Construir",
+    cta: 'HABLEMOS',
+    fr: 'FR',
+    en: 'EN',
+    es: 'ES',
+  },
+  hero: {
+    eyebrow: "Proteger. Crecer. Dejar un legado.",
+    headline: "TU SALARIO TE CUIDA HOY.",
+    accent: "¿PERO QUIÉN CUIDA TU FUTURO?",
+    lead1:
+      "Año tras año, cuidas de los demás — de tu familia, de tu carrera, de tu futuro. ¿Pero quién cuida de tu futuro financiero con la misma determinación?",
+    lead2:
+      "Vengo del mundo de la salud. He visto de cerca lo que significa tratar sin prevenir, trabajar sin detenerse jamás, y triunfar profesionalmente sin sentirse libre. Hoy ayudo a otras mujeres a construir un modelo que les pertenezca.",
+    cta: 'DESCUBRE MI ENFOQUE →',
+    ctaNote: 'Llamada confidencial · Sin compromiso',
+    quote:
+      "La verdadera riqueza comienza cuando dejas de elegir entre cuidar a los demás y cuidarte a ti misma.",
+    signature: 'Asmae',
+  },
+  essentiel: {
+    eyebrow: "Lo esencial en 30 segundos",
+    title: "¿POR QUÉ ALGUNAS MUJERES LOGRAN CONSTRUIR UN FUTURO FINANCIERO QUE PERDURA?",
+    cards: [
+      {
+        num: '01',
+        label: 'EL DESPERTAR',
+        text: "Un ingreso de empleo tiene límites. Aunque sea bueno, depende de tu presencia, tu salud y las decisiones de otros.",
+      },
+      {
+        num: '02',
+        label: 'EL CAMINO',
+        text: "Un modelo de negocio en servicios financieros te permite ayudar a familias mientras construyes un activo que crece con el tiempo.",
+      },
+      {
+        num: '03',
+        label: 'LO QUE CREAS',
+        text: "Un ingreso en evolución, un equipo que apoyar y una estructura que puedes transmitir — construida según tu visión, no la de un empleador.",
+      },
+      {
+        num: '04',
+        label: '¿PARA QUIÉN?',
+        text: "Mujeres dispuestas a aprender, construir lenta pero seguramente, y convertir su experiencia de vida en una palanca de libertad.",
+      },
+    ],
+    cta: 'AGENDA UNA LLAMADA →',
+    ctaSub: "¿Quieres entender el camino antes de decidir? Sigue bajando.",
+  },
+  histoire: {
+    eyebrow: "Por qué yo",
+    title: "DE LA SALA DE ECOCARDIOGRAFÍA A UN NEGOCIO CON SIGNIFICADO.",
+    paragraphs: [
+      "Llegué a Estados Unidos con un sueño: el que mi padre tenía para mí — convertirme en médica. Autodidacta y emprendedor en el alma, creía que la educación abría todas las puertas. Su fe en mí se convirtió en mi brújula.",
+      "La vida trazó otro camino. Casada, madre, cargué varias vidas antes que la mía. No me convertí en médica, pero guardé lo que importaba: la necesidad de servir, de comprender y de construir algo con mis propias manos.",
+      "Así que construí una carrera en salud como sonógrafa cardiovascular. Escaneé corazones, trabajé junto a médicos y tranquilicé a miles de pacientes. Financieramente, alcancé metas que nunca imaginé. Sin embargo, sentía un vacío.",
+      "Veía a personas brillantes agotadas por sistemas que tratan mejor de lo que previenen. Entendí que la salud y la riqueza están conectadas: sin una, la otra se tambalea. Y que el tiempo libre no es un lujo — es una condición para una vida plena.",
+      "Hoy combino mi experiencia en salud con una misión financiera: ayudar a mujeres y familias a proteger lo que importa, prepararse para el retiro sin angustia y crear patrimonio que atraviese generaciones.",
+      "No prometo atajos. Ofrezco un marco, acompañamiento y la convicción profunda de que cada mujer puede convertirse en la CEO de su propia vida.",
+    ],
+    cta: "VEAMOS SI SOMOS COMPATIBLES →",
+  },
+  citation: {
+    label: 'ASMAE HAJJI',
+    quote:
+      "NO SE CONSTRUYE RIQUEZA DURADERA SOLO CON NÚMEROS. SE CONSTRUYE CON VISIÓN, CONSTANCIA Y LA COMUNIDAD CORRECTA A TU ALREDEDOR.",
+  },
+  constat: {
+    eyebrow: 'La realidad',
+    title: "DOS MANERAS DE VIVIR TU DINERO. DOS DESTINOS MUY DIFERENTES.",
+    figCaption:
+      "Fig. 1 — Una estructura depende completamente de ti. La otra construye un activo que te sobrevive.",
+    leftLabel: "EMPLEO TRADICIONAL",
+    rightLabel: "MODELO INDEPENDIENTE",
+    left: {
+      youWork: "TÚ TRABAJAS",
+      fixedSalary: "SALARIO FIJO",
+      inflation: "INFLACIÓN",
+      automationWarning: "⚠  La automatización puede reemplazar este puesto",
+      workHours: "40 h / semana",
+      salaryNote: "no crece solo",
+      inflationNote: "poder adquisitivo ↓",
+    },
+    right: {
+      sales: "VENTAS",
+      team: "EQUIPO",
+      residualIncome: "INGRESO",
+      freedom: "RESIDUAL",
+      personal: "personales",
+      recruitTrain: "reclutar y formar",
+      rest: "incluso mientras descansas",
+      anywhere: "Libertad para trabajar desde cualquier lugar",
+      homeCountry: "— incluyendo tu país de origen",
+    },
+  },
+  etapes: {
+    eyebrow: 'Cómo funciona',
+    title: "4 PASOS PARA CONVERTIR UNA IDEA EN UN ACTIVO",
+    steps: [
+      { num: '01', phase: 'MESES 1–6', label: 'APRENDER', sub: '& LICENCIA*' },
+      { num: '02', phase: 'AÑO 1–2', label: 'SERVIR', sub: 'A LAS PRIMERAS FAMILIAS' },
+      { num: '03', phase: 'AÑO 2–5', label: 'DUPLICAR', sub: 'FORMANDO A OTROS' },
+      { num: '04', phase: 'AÑO 5 → 10+', label: 'BENEFICIARTE', sub: 'DEL INGRESO CONSTRUIDO' },
+    ],
+    figCaption:
+      "Fig. 2 — Progresión indicativa. Cada trayecto es único y depende del compromiso personal. *La licencia puede obtenerse generalmente en 3 meses o menos, según el ritmo de formación.",
+    bottomLabels: ["Licencia* en 3 meses o menos", "Construir tu clientela", "Duplicar el sistema", "Libertad financiera"],
+  },
+  fit: {
+    eyebrow: "Honestidad primero",
+    title: "¿ES ESTE CAMINO PARA TI?",
+    yesTitle: "✓ Sí, si reconoces esto:",
+    yes: [
+      "Te cansaste de depender de un solo salario para toda tu familia",
+      "Quieres construir algo que siga creciendo mientras duermes o viajas",
+      "Te encanta ayudar a las personas — de verdad — y sabes que la educación cambia vidas",
+      "Estás dispuesta a invertir de 2 a 5 años en serio para crear una base sólida",
+      "Quieres mostrarle a tus hijos que una mujer puede construir, liderar y dejar un legado",
+      "Estás abierta a aprender nuevas herramientas, aunque partas de cero en finanzas",
+    ],
+    noTitle: "✗ No, no es para ti si:",
+    no: [
+      "Buscas dinero rápido sin esfuerzo ni aprendizaje",
+      "Te niegas a hablar con personas nuevas o compartir lo que haces",
+      "Quieres números garantizados antes de siquiera comenzar",
+    ],
+  },
+  remuneration: {
+    eyebrow: "Cómo crece el ingreso",
+    title: "3 VÍAS DE CRECIMIENTO — NINGÚN RESULTADO ESTÁ GARANTIZADO.",
+    intro:
+      "Este modelo ofrece tres formas de generar ingresos que pueden combinarse con el tiempo. No son promesas: son mecanismos posibles, y el resultado depende de tu implicación, constancia y capacidad para formar a otros.",
+    levers: [
+      {
+        label: 'VÍA 1',
+        title: "SERVIR A FAMILIAS — COMISIONES PERSONALES",
+        text: "Ayudas a familias a elegir soluciones de protección, salud y retiro. Te compensan según el valor de lo que pones en marcha.",
+      },
+      {
+        label: 'VÍA 2',
+        title: "CONSTRUIR UN EQUIPO — BONOS DE CRECIMIENTO",
+        text: "Al reclutar y formar a otras personas comprometidas, desbloqueas bonos ligados al crecimiento colectivo.",
+      },
+      {
+        label: 'VÍA 3',
+        title: "DESARROLLAR LÍDERES — INGRESO DE EQUIPO",
+        text: "Cuando tu equipo crece y recluta a su vez, una parte del volumen generado puede volver a ti, sin que tengas que hacerlo todo sola.",
+      },
+    ],
+    disclaimer:
+      "Ningún monto, plazo o nivel está garantizado. Los resultados varían según cada persona, el mercado, el esfuerzo y las condiciones de la compañía. Las cifras públicas de la cuadrilla de compensación no son promesas individuales.",
+    comboLabel: 'COMBINANDO LAS 3 PALANCAS',
+    figCaption:
+      "Fig. 3 — Las tres vías de crecimiento posibles. Solo a título indicativo.",
+  },
+  diff: {
+    eyebrow: "Por qué este modelo",
+    title: "¿POR QUÉ ALGUNAS MUJERES ELIGEN CONSTRUIR SU PROPIO TABLERO?",
+    leftTitle: "EMPLEO TRADICIONAL",
+    left: [
+      "Ingreso limitado por un puesto o una cuadrilla salarial",
+      "Cambias tiempo por dinero, indefinidamente",
+      "Dependes de las decisiones de tu empleador",
+      "Poco o ningún patrimonio transmisible",
+      "La máquina continúa sin ti si te detienes",
+    ],
+    rightTitle: "MODELO INDEPENDIENTE",
+    right: [
+      "Tu potencial de ingreso crece con tu aprendizaje y tu equipo",
+      "Construyes un activo que te libera de tu presencia constante",
+      "Tú decides tu ritmo, tu territorio y tus prioridades",
+      "Tu cartera de negocios puede convertirse en un legado familiar",
+      "Combinas servicio, impacto y libertad en un solo modelo",
+    ],
+    figCaption:
+      "Fig. 4 — Diferencias estructurales. Los detalles legales y contractuales dependen de la compañía.",
+  },
+  psychologie: {
+    eyebrow: "Lo que hace diferente mi acompañamiento",
+    title: "LO QUE LO CAMBIA TODO ES LO QUE PASA EN TU CABEZA.",
+    quote:
+      "Las estrategias financieras están por todas partes. Lo que cambia el juego es la capacidad de pasar a la acción a pesar del miedo, la duda y las creencias heredadas.",
+    calloutLabel: "POR QUÉ MI ENFOQUE ES DIFERENTE",
+    callout:
+      "En los últimos cuatro años, he invertido en mi propio desarrollo — mindset, liderazgo, estrategia. Rodeada de expertos en mindset, inversionistas y emprendedores, aprendí algo esencial: nadie triunfa solo. Avanzamos cuando nos sentimos acompañados, comprendidos y empoderados. Esa es la aproximación — humana, exigente, sin juicios — que ofrezco hoy.",
+    donut: {
+      center: "80%",
+      psychology: "psicología",
+      strategy: "estrategia",
+      psychologyLegend: "Psicología — mentalidad, confianza, miedo al rechazo",
+      strategyLegend: "Estrategia — habilidades de venta, herramientas modernas",
+    },
+  },
+  preuve: {
+    eyebrow: 'Un ejemplo concreto',
+    title: "RESULTADOS REALES — NO PROMESAS.",
+    text:
+      "Mujeres y hombres ya han construido ingresos significativos a través de este modelo. Sus resultados son suyos. No representan lo que tú o Asmae lograrán. Simplemente muestran lo que es posible cuando alguien se compromete.",
+    placeholder: "[Captura del tablero para agregar más adelante — identidades ocultas]",
+    caption:
+      "Clasificación interna — nombre de la compañía, nombres y fotos de otros agentes pixelados por confidencialidad. Resultados individuales, no representativos ni garantizados.",
+  },
+  preclose: {
+    eyebrow: "Antes de decidir",
+    title: "LA ÚNICA DECISIÓN URGENTE ES INFORMARTE.",
+    text:
+      "No necesitas dejarlo todo. No necesitas saber exactamente qué hacer. Solo necesitas una conversación honesta para ver si este camino te representa.",
+    quote:
+      "EN DIEZ AÑOS, LAS PEQUEÑAS DECISIONES QUE TOMES HOY HABRÁN CONSTRUIDO UN PUENTE. O UN MURO.",
+    cta: "AGENDA TU LLAMADA →",
+  },
+  finalCta: {
+    eyebrow: 'Próximo paso',
+    title: "HABLEMOS DE TU VISIÓN, NO DE TUS NÚMEROS.",
+    text:
+      "Una llamada de 30 minutos, sin presión. Veremos dónde estás, qué quieres proteger o construir, y si trabajar conmigo y mi equipo tiene sentido.",
+    cta: 'AGENDA MI LLAMADA',
+    ctaSub: "Gratis · Confidencial · Sin compromiso",
+  },
+  footer: {
+    copyright: "© 2026 Asmae Hajji. Todos los derechos reservados.",
+    instagram: 'Instagram: @asmae-hajji',
+    disclaimer:
+      "Este sitio tiene fines educativos e informativos. No constituye asesoramiento financiero, fiscal, legal o de seguros personalizado. Los servicios financieros y de seguros requieren licencias conformes a las regulaciones de los Estados Unidos. Ningún ingreso, resultado o rendimiento está garantizado.",
+  },
+};
+
+export const translations: Record<Lang, Translation> = { fr, en, es };
 
 export function getTranslation(lang: Lang): Translation {
   return translations[lang];
