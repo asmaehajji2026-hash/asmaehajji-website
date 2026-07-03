@@ -306,9 +306,9 @@ const fr: Translation = {
     title: "CE QUI CHANGE TOUT, C'EST CE QUI SE PASSE DANS TA TÊTE.",
     quote:
       "Les stratégies financières sont accessibles à tous. Ce qui change vraiment la donne, c'est la capacité à passer à l'action malgré la peur, le doute et les croyances héritées.",
-    calloutLabel: "POURQUOI MON PARCOURS COMPTE",
+    calloutLabel: "POURQUOI MON ACCOMPAGNEMENT EST DIFFÉRENT",
     callout:
-      "Mon expérience en soins de santé m'a appris une chose essentielle : les gens ne changent pas seulement parce qu'ils ont la bonne information. Ils changent quand ils se sentent en sécurité, entendus et accompagnés. C'est cette approche — humaine, patiente, sans jugement — que je transpose dans le monde financier.",
+      "Au cours des quatre dernières années, j'ai investi dans mon propre développement — mindset, leadership, stratégie. Entourée d'experts en mindset, d'investisseurs et d'entrepreneurs, j'ai compris une chose essentielle : personne ne réussit seul. On avance quand on se sent entourée, comprise et responsabilisée. C'est cette approche — humaine, exigeante, sans jugement — que je propose aujourd'hui.",
     donut: {
       center: "80%",
       psychology: "psychologie",
@@ -539,9 +539,9 @@ const en: Translation = {
     title: "WHAT CHANGES EVERYTHING IS WHAT HAPPENS IN YOUR HEAD.",
     quote:
       "Financial strategies are everywhere. What changes the game is the ability to take action despite fear, doubt, and inherited beliefs.",
-    calloutLabel: "WHY MY BACKGROUND MATTERS",
+    calloutLabel: "WHY MY APPROACH IS DIFFERENT",
     callout:
-      "My healthcare experience taught me one essential thing: people don't change just because they have the right information. They change when they feel safe, heard, and supported. That is the approach — human, patient, non-judgmental — that I bring into the financial world.",
+      "Over the past four years, I have invested in my own development — mindset, leadership, strategy. Surrounded by mindset experts, investors, and entrepreneurs, I learned something essential: no one succeeds alone. We move forward when we feel supported, understood, and empowered. That is the approach — human, rigorous, non-judgmental — that I offer today.",
     donut: {
       center: "80%",
       psychology: "psychology",
