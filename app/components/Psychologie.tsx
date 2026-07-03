@@ -32,7 +32,7 @@ export default function Psychologie({ t }: PsychologieProps) {
 
             <rect x="242" y="120" width="466" height="110" rx="3" fill="#E6F0ED" stroke="rgba(15,92,74,0.3)" strokeWidth="1"/>
             <foreignObject x="252" y="130" width="446" height="90">
-              <div xmlns="http://www.w3.org/1999/xhtml" className="flex flex-col justify-center h-full">
+              <div className="flex flex-col justify-center h-full">
                 <p className="text-[11px] sm:text-xs italic text-[#555555] leading-relaxed m-0">
                   “{t.psychologie.quote}”
                 </p>
