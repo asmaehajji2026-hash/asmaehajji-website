@@ -10,7 +10,7 @@ export default function Footer({ t }: FooterProps) {
       <p className="text-sm mb-2">{t.footer.copyright}</p>
       <p className="text-sm mb-4">
         <a
-          href="https://instagram.com/asmae-hajji"
+          href="https://www.instagram.com/may_hajji?utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
           className="text-as-gold hover:underline"

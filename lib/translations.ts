@@ -349,7 +349,7 @@ const fr: Translation = {
   },
   footer: {
     copyright: "© 2026 Asmae Hajji. Tous droits réservés.",
-    instagram: 'Instagram : @asmae-hajji',
+    instagram: 'Instagram : @may_hajji',
     disclaimer:
       "Ce site a un but éducatif et informatif. Il ne constitue pas un conseil financier, fiscal, juridique ou en assurance personnalisé. Les services financiers et d'assurance nécessitent des licences conformes aux États-Unis. Aucun revenu, résultat ou rendement n'est garanti.",
   },
@@ -584,7 +584,7 @@ const en: Translation = {
   },
   footer: {
     copyright: "© 2026 Asmae Hajji. All rights reserved.",
-    instagram: 'Instagram: @asmae-hajji',
+    instagram: 'Instagram: @may_hajji',
     disclaimer:
       "This site is for educational and informational purposes. It does not constitute personalized financial, tax, legal, or insurance advice. Financial and insurance services require licenses compliant with United States regulations. No income, result, or return is guaranteed.",
   },
@@ -819,7 +819,7 @@ const es: Translation = {
   },
   footer: {
     copyright: "© 2026 Asmae Hajji. Todos los derechos reservados.",
-    instagram: 'Instagram: @asmae-hajji',
+    instagram: 'Instagram: @may_hajji',
     disclaimer:
       "Este sitio tiene fines educativos e informativos. No constituye asesoramiento financiero, fiscal, legal o de seguros personalizado. Los servicios financieros y de seguros requieren licencias conformes a las regulaciones de los Estados Unidos. Ningún ingreso, resultado o rendimiento está garantizado.",
   },
