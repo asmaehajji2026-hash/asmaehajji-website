@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { Translation } from '@/lib/translations';
 
 interface PreuveSocialeProps {
@@ -20,12 +21,19 @@ export default function PreuveSociale({ t }: PreuveSocialeProps) {
           dangerouslySetInnerHTML={{ __html: t.preuve.text }}
         />
 
-        <div className="border border-as-gray-200 overflow-hidden rounded-lg">
+        <div className="border border-as-gray-200 overflow-hidden rounded-lg bg-white">
           <div className="bg-as-cream-warm px-4 py-3 border-b border-as-gray-200 font-body text-xs tracking-as-wider text-as-gray-500">
-            {t.lang === 'fr' ? 'CLASSEMENT DE PERFORMANCE — DONNÉES À VENIR' : 'PERFORMANCE RANKING — DATA TO COME'}
+            {t.lang === 'fr' ? 'CLASSEMENT DE PERFORMANCE' : 'PERFORMANCE RANKING'}
           </div>
-          <div className="bg-white p-12 text-center">
-            <p className="font-body text-sm text-as-gray-500 italic">{t.preuve.placeholder}</p>
+          <div className="relative w-full h-auto">
+            <Image
+              src="/scoreboard.png"
+              alt={t.lang === 'fr' ? 'Classement de performance Experior' : 'Experior performance ranking'}
+              width={1478}
+              height={643}
+              className="w-full h-auto"
+              sizes="(max-width: 1000px) 100vw, 1000px"
+            />
           </div>
         </div>
 

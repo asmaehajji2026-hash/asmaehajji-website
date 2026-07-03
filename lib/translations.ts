@@ -324,7 +324,7 @@ const fr: Translation = {
       "Des femmes et des hommes ont déjà bâti des revenus significatifs à travers ce modèle. Leurs résultats sont leurs. Ils ne représentent pas ce que toi ou Asmae obtiendrez. Ils montrent simplement ce qui est possible quand quelqu'un s'engage.",
     placeholder: "[Capture de tableau de bord à ajouter ultérieurement — identités masquées]",
     caption:
-      "Données internes de la compagnie, anonymisées. Résultat non représentatif et non garanti.",
+      "Classement Experior — noms et photos des autres agents pixelisés par confidentialité. Résultats individuels, non représentatifs et non garantis.",
   },
   preclose: {
     eyebrow: "Avant de te décider",
@@ -557,7 +557,7 @@ const en: Translation = {
       "Women and men have already built significant income through this model. Their results are theirs. They do not represent what you or Asmae will achieve. They simply show what is possible when someone commits.",
     placeholder: "[Dashboard screenshot to add later — identities masked]",
     caption:
-      "Internal company data, anonymized. Non-representative and non-guaranteed result.",
+      "Experior ranking — other agents' names and photos pixelated for confidentiality. Individual results, non-representative and non-guaranteed.",
   },
   preclose: {
     eyebrow: "Before you decide",
