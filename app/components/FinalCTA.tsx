@@ -19,7 +19,7 @@ export default function FinalCTA({ t }: FinalCTAProps) {
         <p className="font-body text-base sm:text-lg text-as-ink/90 leading-relaxed mb-8">{t.finalCta.text}</p>
 
         <a
-          href="https://calendly.com/asmaehajji"
+          href="https://calendly.com/asmaehajji2026/30min"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex bg-white text-as-emerald font-body font-semibold tracking-as-wide uppercase px-8 py-4 rounded-lg shadow-lg hover:bg-as-cream transition-colors"
