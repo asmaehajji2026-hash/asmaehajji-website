@@ -305,7 +305,7 @@ const fr: Translation = {
     eyebrow: "Ce qui rend mon accompagnement différent",
     title: "CE QUI CHANGE TOUT, C'EST CE QUI SE PASSE DANS TA TÊTE.",
     quote:
-      "Les stratégies financières existent partout. Ce qui fait la différence, c'est la capacité à passer à l'action malgré la peur, le doute et les croyances héritées.",
+      "Les stratégies financières sont accessibles à tous. Ce qui change vraiment la donne, c'est la capacité à passer à l'action malgré la peur, le doute et les croyances héritées.",
     calloutLabel: "POURQUOI MON PARCOURS COMPTE",
     callout:
       "Mon expérience en soins de santé m'a appris une chose essentielle : les gens ne changent pas seulement parce qu'ils ont la bonne information. Ils changent quand ils se sentent en sécurité, entendus et accompagnés. C'est cette approche — humaine, patiente, sans jugement — que je transpose dans le monde financier.",
@@ -538,7 +538,7 @@ const en: Translation = {
     eyebrow: "What makes my support different",
     title: "WHAT CHANGES EVERYTHING IS WHAT HAPPENS IN YOUR HEAD.",
     quote:
-      "Financial strategies are everywhere. What makes the difference is the ability to take action despite fear, doubt, and inherited beliefs.",
+      "Financial strategies are everywhere. What changes the game is the ability to take action despite fear, doubt, and inherited beliefs.",
     calloutLabel: "WHY MY BACKGROUND MATTERS",
     callout:
       "My healthcare experience taught me one essential thing: people don't change just because they have the right information. They change when they feel safe, heard, and supported. That is the approach — human, patient, non-judgmental — that I bring into the financial world.",
