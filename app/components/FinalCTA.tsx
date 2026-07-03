@@ -1,4 +1,7 @@
+import dynamic from 'next/dynamic';
 import type { Translation } from '@/lib/translations';
+
+const CalendlyEmbed = dynamic(() => import('./CalendlyEmbed'), { ssr: false });
 
 interface FinalCTAProps {
   t: Translation;
@@ -18,15 +21,10 @@ export default function FinalCTA({ t }: FinalCTAProps) {
 
         <p className="font-body text-base sm:text-lg text-as-ink/90 leading-relaxed mb-8">{t.finalCta.text}</p>
 
-        <a
-          href="https://calendly.com/asmaehajji2026/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex bg-white text-as-emerald font-body font-semibold tracking-as-wide uppercase px-8 py-4 rounded-lg shadow-lg hover:bg-as-cream transition-colors"
-        >
-          {t.finalCta.cta}
-        </a>
-        <p className="text-sm text-as-ink/70 mt-4">{t.finalCta.ctaSub}</p>
+        <div className="rounded-xl overflow-hidden shadow-2xl bg-white">
+          <CalendlyEmbed url="https://calendly.com/asmaehajji2026/30min" />
+        </div>
+        <p className="text-sm text-as-ink/70 mt-6">{t.finalCta.ctaSub}</p>
       </div>
     </section>
   );
